@@ -41,9 +41,6 @@ def play(board)
   counter = 0
   until counter == 9
     counter += 1
-    if counter >= 9
-      break
-    end
     turn(board)
   end
 end
