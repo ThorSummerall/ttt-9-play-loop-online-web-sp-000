@@ -31,8 +31,14 @@ def turn(board)
     move(board, index)
     display_board(board)
   else
+    puts "Invalid move! Please enter a valid move"
     turn(board)
   end
 end
 
 # Define your play method below
+def play(board)
+  loop do
+    turn(board)
+  end
+end
