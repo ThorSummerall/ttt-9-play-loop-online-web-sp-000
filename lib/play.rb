@@ -41,6 +41,7 @@ def play(board)
   counter = 0
   loop do
     counter += 1
+    if counter +
     turn(board)
   end
 end
